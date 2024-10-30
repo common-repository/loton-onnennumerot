@@ -1,0 +1,53 @@
+/*
+* Styles for Lucky Lotto Numbers 
+*/
+
+label.lucky-lotto-label {
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.lucky-lotto-select {
+    margin-right: 100%;
+    margin-bottom: 10px;
+    min-width: 150px;
+}
+
+button#lucky-lotto-btn, button#lucky-lotto-btn-sc {
+    background: #44a614;
+    border-radius: 0px;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+ul#lotto-number-response, ul#lotto-number-response-sc {
+    list-style-type: none;
+    padding-left: 0px;
+    min-height: 40px;
+}
+
+ul#lotto-number-response li, ul#lotto-number-response-sc li {
+    background: #ffc71d;
+    padding: 5px;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    display: block;
+    float: left;
+    margin-right: 5px;
+}
+
+li#viking-lotto-numbers {
+  background: #4c8ece!important;
+  color: white!important;
+}
+
+li#special-lotto-numbers {
+  background: #9450a3!important;
+  color: white!important;
+}
